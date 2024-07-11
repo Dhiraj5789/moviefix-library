@@ -1,0 +1,42 @@
+
+.navigationItems {
+    display: flex;
+    gap: .5rem;
+    padding: 0 1rem;
+    overflow: auto;
+    scrollbar-width: none;
+  
+    ::-moz-selection {
+      background: transparent;
+    }
+  
+    ::selection {
+      background: transparent;
+    }
+  
+    li {
+      list-style-type: none;
+      color: white;
+      font-weight: bold;
+      padding: 4px;
+      margin: 0 2px 0 0;
+      border: white solid;
+  
+      :hover {
+        cursor: pointer;
+      }
+  
+      p {
+        margin: 0;
+        text-wrap: nowrap;
+      }
+    }
+  }
+  
+  .selectedFilter {
+    background-color: white;
+  
+    p {
+      color: black;
+    }
+  }

@@ -1,0 +1,10 @@
+.moviesByYearContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.moviesCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7vw;
+}
