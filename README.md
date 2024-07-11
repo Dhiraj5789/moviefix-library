@@ -24,4 +24,4 @@ the selected genres.
 
 1. Implement a search bar which searches for the movie based on the search string
 and displays an infinite loading list of movies which matches the search.
-2. Implemented in web app and not in native
+2. Implement in React Native
