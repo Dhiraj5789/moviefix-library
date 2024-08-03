@@ -3,7 +3,7 @@
 1. npm install - to install all libraries init
 2. npm start - will run the application on localhost:3000 by default
 
-## List of requirements covered
+## List of fetaures covered
 
 1. Displayed a list of movies sorted in descending order of popularity.
 2. Show the movie title, image, genre, cast, director, and a short description related
@@ -19,9 +19,3 @@ this interaction is smooth and doesn’t cause any jitters.
 8. When a user selects one or more genres, the list should only display movies of
 the selected genres.
 9. Used TypeScript for enhanced type safety and code quality.
-
-## List of requirements not covered
-
-1. Implement a search bar which searches for the movie based on the search string
-and displays an infinite loading list of movies which matches the search.
-2. Implement in React Native
