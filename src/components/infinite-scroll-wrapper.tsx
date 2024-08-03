@@ -35,7 +35,7 @@ const ScrollComponent = ({
     const scroller = scrollerRef.current;
     if (!scroller) return;
 
-    const { scrollTop, offsetTop, offsetHeight } = scroller;
+    const { scrollTop, offsetHeight } = scroller;
     const topEdge = (scroller.firstChild as HTMLDivElement).offsetTop;
     const bottomEdge =
       (scroller.lastChild?.lastChild?.lastChild as HTMLElement)?.offsetTop +
@@ -44,7 +44,7 @@ const ScrollComponent = ({
     const scrolledUp = scrollTop + topEdge;
     const scrolledDown = scrolledUp + offsetHeight;
 
-    if (bottomEdge && scrolledDown >= bottomEdge - 2) {
+    if (bottomEdge && scrolledDown >= bottomEdge - 5) {
       onReachBottom();
     } else if (topEdge && scrolledUp - 1 <= topEdge) {
       onReachTop();
